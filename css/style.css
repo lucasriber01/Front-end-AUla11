@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.relative {
+    background: #ebf838;
+    height: 200px;
+    width: 300px;    
+    position: absolute;
+
+    
+ }
+ .div {
+     background: white;
+     height: 100px;
+    width: 100px;
+    top: 40px;
+    left: 95px;
+    padding: 10px ;
+    position: relative;
+
+    
+ }
+
+ .relative1  {
+     background: blue;
+    position: absolute;
+    right: 0px;
+    height: 200px;
+    width: 300px; 
+  
+
+ }
+
+
+ .relative2 {
+    background:red;
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    right: 60%;
+    height: 200px;
+    width: 300px;
+    margin-top: -25px;
+    margin-left: -100px;
+}
+
+p {
+    text-align: center;
+    line-height:20px ;
+
+}
